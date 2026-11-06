@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- HTML5 Orange Background Shield -->
+  <path fill="#E34F26" d="M71 460L30 0h452l-41 460-185 52z"/>
+  <!-- Darker Right Shade -->
+  <path fill="#EF652A" d="M256 472l142-39 35-394H256v433z"/>
+  <!-- White Left '5' Skeleton -->
+  <path fill="#ECECEC" d="M256 208H160l-7-75h103V61H82l23 259h151v-112zm0 147l-63-17-4-45h-72l8 96 131 36v-70z"/>
+  <!-- Light Gray Right '5' Skeleton -->
+  <path fill="#FFFFFF" d="M256 208v72h69l-7 73-62 17v70l131-36 17-196H256zm0-147v72h175l6-72H256z"/>
+</svg>
+
