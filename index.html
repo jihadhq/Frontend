@@ -3,32 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"
+    <meta name="description" content="This is my first project and portfolio webpage">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>JihadHQ</title>
 </head>
 <body>
-    <form id="myForm">
-        <input id="inputname" type="text" placeholder="Enter your name:">
-    <button type="submit">Submit</button>
-    </form>
-    <p id="out"></p>
-    <input id="search" placeholder="Search">
-    <p id="result"></p>
-
-    <div id="box" style="width:120px;height:120px;background:gray;"></div>
-
-<script>
-  const box = document.getElementById("box");
-
-  box.addEventListener("mouseover", function() {
-    box.style.background = "gold";
-  });
-
-  box.addEventListener("mouseout", function() {
-    box.style.background = "gray";
-  });
-</script>
-    
-    <script src="script.js"></script>
+    <header>
+        <h1>Jihad Head Quarter</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section aria-labelledby="skills-heading">
+            <h2 id="skills-heading">My skills and project</h2>
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+                <li>python</li>
+            </ul>
+        </section>
+        <section aria-labelledby="project-heading">
+            <ul>
+                <li><a href="https://example.com" target="_blank" rel="noopener">Project</a></li>
+                <li><a href="https://example.com" target="_blank" rel="noopener">portfolio</a></li>
+            </ul>
+            <article>
+                <p>I am a non-CSE student. But I am interested in <strong>full stack development &amp; cybersecurity</strong>.</p>
+<p>So firstly, I am learning full stack development.</p>
+                
+            </article>
+            <div>
+                <p>If you interested to contacted me</p>
+                <a href="/form.html">Hire Me</a>
+            </div>
+        </section>
+    </main>
+    <aside>
+        <h2>Popular tag</h2>
+        <nav>
+            <ul>
+                <li>#html</li>
+                <li>#css</li>
+                <li>#js</li>
+                <li>#python</li>
+            </ul>
+        </nav>
+    </aside>
+    <footer>
+        <p>&copy; 2026 Jihad Head Quarter. All rights received</p>
+        <p><a href="/privacy">Privacy &amp; Policy</a></p>
+        <p><a href="/terms">Terms of Service</a></p>
+    </footer>
 </body>
 </html>
